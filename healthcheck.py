@@ -1,6 +1,8 @@
 import shutil
 import psutil
 
+# check update
+
 def check_disk_usage(disk):
     #This function will check disk usage
     du=shutil.disk_usage(disk)
